@@ -2,7 +2,8 @@
 
 import inquirer from 'inquirer';
 
-console.log("************** Welcom To My Calculator *************");
+console.log(`"\n\n"************** Welcom To My Calculator *************`);
+console.log("");
 
 const answer = await inquirer.prompt([
     { message: "Enter your first number", type: "number", name: "firstNumber" },    
@@ -34,7 +35,7 @@ if (answer.operator === "Addition") {
     console.log("Please select valid operator");
 
 } 
-    console.log("**************** Thanks Using My Calculator ***************");
+    
 
 
 
